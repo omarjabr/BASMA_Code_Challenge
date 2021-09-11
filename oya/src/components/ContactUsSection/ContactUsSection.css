@@ -1,0 +1,86 @@
+.contact-section {
+  background-color: #fff;
+  padding: 90px 0 100px;
+}
+.contact .content h5:first-child {
+  margin-top: 0;
+}
+
+.contact .content h5 {
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+p {
+  line-height: 26px;
+  margin-top: 0;
+}
+
+.contact .content-right .button {
+  margin-top: 0px;
+}
+
+.col-md-4,
+.col-md-8,
+.col-sm-12 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.contact .content-right {
+  text-align: center;
+}
+
+.col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+form input,
+form textarea {
+  border: 1px solid #f5f5f5;
+  background: #f5f5f5;
+  padding: 14px 20px;
+  margin-bottom: 30px;
+  width: 100%;
+  color: #aaa;
+  border-radius: 5px;
+  text-align: left;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+@media screen and (max-width: 765px) {
+  .contact .content {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-8 {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+}
