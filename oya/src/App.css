@@ -6,3 +6,28 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
+
+body {
+  color: #8a8a8a;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  background: url("./images/bg-intro.png");
+  background-repeat: no-repeat;
+  background-size: 58%;
+  background-position: top right;
+  background-color: #f8f5ff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #111;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}

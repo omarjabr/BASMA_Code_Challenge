@@ -1,0 +1,72 @@
+.about-section {
+  background-color: #f4f4f6;
+  padding: 90px 0 100px;
+}
+.title-section {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.title-section p {
+  color: #614cab;
+  margin-bottom: 15px;
+  display: block;
+}
+p {
+  line-height: 26px;
+  margin-top: 0;
+}
+.title-section h3 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.col-md-4 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.about .content {
+  background: #fff;
+  border-radius: 15px;
+  text-align: center;
+  padding: 30px;
+  cursor: default;
+}
+
+.about .content h5 {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.icon {
+  fill: #614cab;
+  width: 60px;
+  height: 60px;
+  stroke: #614cab;
+}
+
+.about .content:hover {
+  background: #614cab;
+  color: #fff;
+  transition: 0.7s ease-out;
+  box-shadow: 0 12px 30px -15px rgb(0 0 0 / 20%);
+}
+.about .content:hover > .icon {
+  fill: #fff;
+  stroke: #fff;
+}
+.about .content:hover > h5 {
+  color: #fff;
+}
+
+@media screen and (max-width: 765px) {
+  .about .content {
+    margin-bottom: 30px;
+  }
+}
