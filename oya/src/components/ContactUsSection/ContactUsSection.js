@@ -1,5 +1,6 @@
 import React from "react";
 import "./ContactUsSection.css";
+import "../GlobalStyles.css"
 
 function ContactUsSection() {
   return (

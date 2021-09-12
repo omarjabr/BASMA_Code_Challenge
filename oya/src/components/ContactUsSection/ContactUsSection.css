@@ -11,32 +11,12 @@
   margin-bottom: 15px;
 }
 
-p {
-  line-height: 26px;
-  margin-top: 0;
-}
-
 .contact .content-right .button {
   margin-top: 0px;
 }
 
-.col-md-4,
-.col-md-8,
-.col-sm-12 {
-  position: relative;
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
 .contact .content-right {
   text-align: center;
-}
-
-.col {
-  flex-basis: 0;
-  flex-grow: 1;
-  max-width: 100%;
 }
 
 form {
@@ -80,7 +60,7 @@ textarea {
 
 @media (min-width: 768px) {
   .col-md-8 {
-    flex: 0 0 66.666667%;
-    max-width: 66.666667%;
+    flex: 0 0 66%;
+    max-width: 66%;
   }
 }

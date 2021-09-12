@@ -1,5 +1,6 @@
 import React from "react";
 import "./PricingSection.css";
+import "../GlobalStyles.css"
 
 function PricingSection() {
   return (

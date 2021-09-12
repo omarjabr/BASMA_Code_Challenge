@@ -1,0 +1,51 @@
+.footer-section {
+  background: #302c42;
+  padding: 90px 0 80px;
+}
+
+.footer .brand img {
+  width: 65px;
+  height: 34.16px;
+}
+
+.footer h5 {
+  color: #fff !important;
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
+
+.footer ul li {
+  margin-bottom: 8px;
+}
+
+.footer ul li a {
+  color: #ccc;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.footer ul li a:hover {
+  color: #ffb005;
+  transition: all 0.3s ease-out;
+}
+
+.footer .brand {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.social-icons {
+  display: flex;
+  padding-right: 10px;
+}
+
+.footer-bottom {
+  background: #302c42;
+  text-align: center;
+  color: #eee;
+  padding: 35px 0 35px;
+  border-top: 1px solid #888;
+}

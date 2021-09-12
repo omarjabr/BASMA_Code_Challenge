@@ -6,6 +6,7 @@ import portfolio4 from "../../images/portfolio4.jpeg";
 import portfolio5 from "../../images/portfolio5.jpeg";
 import portfolio6 from "../../images/portfolio6.jpeg";
 import "./PortfolioSection.css";
+import "../GlobalStyles.css"
 
 function PortfolioSection() {
   return (
@@ -38,7 +39,7 @@ function PortfolioSection() {
                 </li>
               </ul>
             </div>
-            <div className="row no-gutters item-grid">
+            <div className="row card-margins item-grid">
               <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="content-image">
                   <img src={portfolio1} alt="portfolio1" />
@@ -55,7 +56,7 @@ function PortfolioSection() {
                 </div>
               </div>
             </div>
-            <div className="row no-gutters item-grid">
+            <div className="row card-margins item-grid">
               <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="content-image">
                   <img src={portfolio4} alt="portfolio4" />

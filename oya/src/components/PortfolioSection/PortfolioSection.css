@@ -2,19 +2,23 @@
   background-color: #fff;
   padding: 90px 0 100px;
 }
+
 .title-section h3 span {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #614cab;
 }
+
 .portfolio .portfolio-filter-menu {
   margin-bottom: 30px;
   text-align: center;
 }
+
 ul {
   padding: 0;
   margin: 0;
 }
+
 .portfolio .portfolio-filter-menu ul li.active {
   background: #614cab;
   color: #fff;
@@ -35,7 +39,7 @@ ul {
   border-radius: 6px;
 }
 
-.no-gutters {
+.card-margins {
   margin-right: 0;
   margin-left: 0;
 }
@@ -43,6 +47,7 @@ ul {
 .portfolio .row .col-md-4 {
   padding: 15px;
 }
+
 .portfolio .content-image img {
   width: 100%;
   border-radius: 15px;
