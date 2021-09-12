@@ -4,7 +4,7 @@ import {
   FaFacebookF,
   FaTwitter,
   FaInstagram,
-  FaAngleDoubleRight
+  FaAngleDoubleRight,
 } from "react-icons/fa";
 import "./FooterSection.css";
 import "../GlobalStyles.css";
